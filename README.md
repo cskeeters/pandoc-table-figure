@@ -2,10 +2,8 @@ This is a pandoc filter designed to be used with [Pandoc Typst PDF (`ptp`)](http
 
 ```markdown
 ---
-title: Typst Article Test
+title: Table Cross Reference Test
 author: Chad Skeeters
-template: school-paper.typ
-# template: school-paper/0.1.0/template.typ
 filters:
   - pandoc-table-figure/0.1.0/figure.lua
 ---
