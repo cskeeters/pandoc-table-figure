@@ -39,5 +39,7 @@ typst compile doc.typ
 ```
 mkdir -p ~/.pandoc/filters/pandoc-table-fitler
 cd ~/.pandoc/filters/pandoc-table-fitler
-curl -s -L git https://github.com/cskeeters/pandoc-table-figure/archive/refs/tags/v0.1.0.zip
+git clone https://github.com/cskeeters/pandoc-table-figure 0.1.0
+cd 0.1.0
+git switch --detach v0.1.0
 ```
